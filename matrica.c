@@ -44,7 +44,7 @@ int main(void){
 
     for(r = 0; r < m->rows; ++r){
         for(c = 0; c < m->cols; ++c)
-            printf("%5.1" PRN_MAT " ", m->mat[r][c]);
+            printf("%5.1f ", m->mat[r][c]);
         printf("\n");
     }
 
