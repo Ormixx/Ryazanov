@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 matrix_t *mat_frd(char* fname){
     int r = 0, c = 0;
     matrix_t *mfile = NULL;
@@ -12,7 +11,7 @@ matrix_t *mat_frd(char* fname){
     fclose(matrix_file);
 
     return mfile;
-=======
+
 int main(void){
     int r, c;
     matrix_t *m = mat_frd("data.txt");
@@ -28,5 +27,4 @@ int main(void){
     }
 
     return 0;
->>>>>>> cd4884d7162da6f428befdfeca2f3d14dd08e6c0
 }
